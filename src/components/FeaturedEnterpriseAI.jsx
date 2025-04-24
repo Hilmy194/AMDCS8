@@ -1,11 +1,15 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { useRef } from 'react';
+
+// Import gambar-gambar
+import img1 from '../assets/enterprise1.jpg';
+import img2 from '../assets/enterprise2.jpg';
+import img3 from '../assets/enterprise3.jpg';
 
 const items = [
-  { title: 'Advance Al Development with AMD ROCM Software', img: '/src/assets/enterprise1.jpg', link: '#' },
-  { title: 'Leading the AI PC Era', img: '/src/assets/enterprise2.jpg', link: '#' },
-  { title: 'Revolutionize Your Al Infrastructure', img: '/src/assets/enterprise3.jpg', link: '#' },
+  { title: 'Advance AI Development with AMD ROCm Software', img: img1, link: '#' },
+  { title: 'Leading the AI PC Era', img: img2, link: '#' },
+  { title: 'Revolutionize Your AI Infrastructure', img: img3, link: '#' },
 ];
 
 export default function FeaturedEnterpriseAI() {

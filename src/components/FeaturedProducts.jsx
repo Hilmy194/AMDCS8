@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 
-// Import gambar
 import ryzenChip from '../assets/ryzen-ai-chip.png';
 import prebuiltSystem from '../assets/prebuilt-system.jpg';
 import radeonCard from '../assets/radeon-rx-card.png';

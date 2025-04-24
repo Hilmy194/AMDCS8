@@ -1,13 +1,19 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { useRef } from 'react';
+
+// Import gambar
+import img1 from '../assets/solution1.jpg';
+import img2 from '../assets/solution2.jpg';
+import img3 from '../assets/solution3.jpg';
+import img4 from '../assets/solution4.jpg';
+import img5 from '../assets/solution5.jpg';
 
 const solutions = [
-  { title: 'HCI and Virtualization', text: 'Empowering enterprises to capture the full benefits of HCI', img: './src/assets/solution1.jpg' },
-  { title: 'Database and Analytics', text: 'Accelerating queries and transactions to transform data into actionable insights', img: '/src/assets/solution2.jpg' },
-  { title: 'Supercomputing and Research', text: 'Harnessing the potential of Al and Exascale-class supercomputing to advance scientific research', img: '/src/assets/solution3.jpg' },
-  { title: 'Financial Services', text: 'Delivering highly performant and efficient solutions to support core and Al-powered FSI workloads', img: '/src/assets/solution4.jpg' },
-  { title: 'Product Design', text: 'Integrating Al and accelerating CAE simulations for better product designs and more timely results', img: '/src/assets/solution5.jpg' },
+  { title: 'HCI and Virtualization', text: 'Empowering enterprises to capture the full benefits of HCI', img: img1 },
+  { title: 'Database and Analytics', text: 'Accelerating queries and transactions to transform data into actionable insights', img: img2 },
+  { title: 'Supercomputing and Research', text: 'Harnessing the potential of AI and Exascale-class supercomputing to advance scientific research', img: img3 },
+  { title: 'Financial Services', text: 'Delivering highly performant and efficient solutions to support core and AI-powered FSI workloads', img: img4 },
+  { title: 'Product Design', text: 'Integrating AI and accelerating CAE simulations for better product designs and more timely results', img: img5 },
 ];
 
 export default function FeaturedSolutions() {
