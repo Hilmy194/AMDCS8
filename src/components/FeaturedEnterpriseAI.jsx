@@ -3,9 +3,9 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 const items = [
-  { title: 'Advance Al Development with AMD ROCM Software', img: '/src/assets/enterprise1.jpg', link: '#' },
-  { title: 'Leading the AI PC Era', img: '/src/assets/enterprise2.jpg', link: '#' },
-  { title: 'Revolutionize Your Al Infrastructure', img: '/src/assets/enterprise3.jpg', link: '#' },
+  { title: 'Advance Al Development with AMD ROCM Software', img: '/public/assets/enterprise1.jpg', link: '#' },
+  { title: 'Leading the AI PC Era', img: '/public/assets/enterprise2.jpg', link: '#' },
+  { title: 'Revolutionize Your Al Infrastructure', img: '/public/assets/enterprise3.jpg', link: '#' },
 ];
 
 export default function FeaturedEnterpriseAI() {

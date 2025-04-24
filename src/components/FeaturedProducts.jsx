@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const products = [
-  { img: '/src/assets/ryzen-ai-chip.png', title: 'Unlock Magical AI Experiences', desc: 'AMD Ryzen™ Desktop Processors', btn: 'Find Retailers' },
-  { img: '/src/assets/prebuilt-system.jpg', title: 'Unlock Peak Performance Only With AMD', desc: 'Browse preconfigured systems from our partners.', btn: 'Learn More' },
-  { img: '/src/assets/radeon-rx-card.png', title: 'Make Every Play Count', desc: 'AMD Radeon™ RX Graphics Cards', btn: 'Find Retailers' },
+  { img: '/public/assets/ryzen-ai-chip.png', title: 'Unlock Magical AI Experiences', desc: 'AMD Ryzen™ Desktop Processors', btn: 'Find Retailers' },
+  { img: '/public/assets/prebuilt-system.jpg', title: 'Unlock Peak Performance Only With AMD', desc: 'Browse preconfigured systems from our partners.', btn: 'Learn More' },
+  { img: '/public/assets/radeon-rx-card.png', title: 'Make Every Play Count', desc: 'AMD Radeon™ RX Graphics Cards', btn: 'Find Retailers' },
 ];
 
 export default function FeaturedProducts() {

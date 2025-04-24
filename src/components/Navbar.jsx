@@ -1,4 +1,4 @@
-import logo from '/src/assets/amd-logo.svg'; 
+import logo from '/public/assets/amd-logo.svg'; 
 
 export default function Navbar() {
   return (

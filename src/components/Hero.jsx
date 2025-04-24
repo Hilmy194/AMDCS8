@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import heroBg from '/src/assets/hero-bg.jpg';
+import heroBg from '/public/assets/hero-bg.jpg';
 
 export default function Hero() {
   const ref = useRef(null);
