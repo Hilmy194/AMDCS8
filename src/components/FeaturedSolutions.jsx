@@ -3,11 +3,11 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 const solutions = [
-  { title: 'HCI and Virtualization', text: 'Empowering enterprises to capture the full benefits of HCI', img: './public/assets/solution1.jpg' },
-  { title: 'Database and Analytics', text: 'Accelerating queries and transactions to transform data into actionable insights', img: '/public/assets/solution2.jpg' },
-  { title: 'Supercomputing and Research', text: 'Harnessing the potential of Al and Exascale-class supercomputing to advance scientific research', img: '/public/assets/solution3.jpg' },
-  { title: 'Financial Services', text: 'Delivering highly performant and efficient solutions to support core and Al-powered FSI workloads', img: '/public/assets/solution4.jpg' },
-  { title: 'Product Design', text: 'Integrating Al and accelerating CAE simulations for better product designs and more timely results', img: '/public/assets/solution5.jpg' },
+  { title: 'HCI and Virtualization', text: 'Empowering enterprises to capture the full benefits of HCI', img: './src/assets/solution1.jpg' },
+  { title: 'Database and Analytics', text: 'Accelerating queries and transactions to transform data into actionable insights', img: '/src/assets/solution2.jpg' },
+  { title: 'Supercomputing and Research', text: 'Harnessing the potential of Al and Exascale-class supercomputing to advance scientific research', img: '/src/assets/solution3.jpg' },
+  { title: 'Financial Services', text: 'Delivering highly performant and efficient solutions to support core and Al-powered FSI workloads', img: '/src/assets/solution4.jpg' },
+  { title: 'Product Design', text: 'Integrating Al and accelerating CAE simulations for better product designs and more timely results', img: '/src/assets/solution5.jpg' },
 ];
 
 export default function FeaturedSolutions() {
